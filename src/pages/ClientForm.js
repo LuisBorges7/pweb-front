@@ -8,6 +8,7 @@ function ClientForm(){
     const [campos, setCampos] = useState({
         name: '',
         email: '',
+        password: '',
         cpf: '',
         rg: '',
         cnh: '',
@@ -75,6 +76,10 @@ function ClientForm(){
                         <Form.Group>
                             <label className="form-control-label" class="text-left pt-3">Email:</label>
                             <Form.Control type="email" name ="email" size="lg" placeholder="email" autoComplete="email" className="position-relative" onChange={handleInputChange}/>
+                        </Form.Group>
+                        <Form.Group>
+                            <label className="form-control-label" class="text-left pt-3">senha:</label>
+                            <Form.Control type="password" name ="password" size="lg" placeholder="password" autoComplete="password" className="position-relative" onChange={handleInputChange}/>
                         </Form.Group>
                         <Form.Group>
                             <label className="form-control-label" class="text-left pt-3">cpf:</label>
