@@ -38,7 +38,7 @@ function ChecklistForm() {
 	function handleFormSubmit(event) {
 		event.preventDefault();
 		console.log(campos);
-		Api.post("/checklists/", campos).then((res) => {
+		Api.post("checklists/", campos).then((res) => {
 			console.log(res.data);
 		}).catch((error) => { console.log(error) });
 	}

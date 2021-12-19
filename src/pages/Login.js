@@ -21,7 +21,7 @@ function Login(){
     function handleFormSubmit(event) {
 		event.preventDefault();
 		console.log(campos);
-		Api.post("/auth/login/", campos).then((res) => {
+		Api.post("auth/login/", campos).then((res) => {
 			console.log(res.data);
 		}).catch((error) => { console.log(error) });
 	}

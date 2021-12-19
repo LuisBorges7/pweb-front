@@ -20,7 +20,7 @@ function CarList() {
 
   useEffect(() => {
     (async () => {
-      Api.get('/categories/').then(response => {
+      Api.get('categories/').then(response => {
         setCampos(response.data);
         console.log(campos);
       });

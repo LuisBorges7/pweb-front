@@ -55,7 +55,7 @@ function ProviderRegistrationForm() {
 
 		event.preventDefault();
 		console.log(campos);
-		Api.post("/admin/providers/", campos).then((res) => {
+		Api.post("admin/providers/", campos).then((res) => {
 			console.log(res.data)
 		}).catch((error) => {
 			console.log(error)

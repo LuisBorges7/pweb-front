@@ -28,7 +28,7 @@ function ReservationForm() {
   function handleFormSubmit(event) {
     event.preventDefault();
     console.log(campos);
-    Api.post("/rents/", campos).then((res) => {
+    Api.post("rents/", campos).then((res) => {
       console.log(res.data);
     }).catch((error) => { console.log(error) });
   }

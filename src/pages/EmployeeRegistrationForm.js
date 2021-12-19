@@ -51,7 +51,7 @@ function EmployeeRegistrationForm() {
 
         event.preventDefault();
         console.log(campos);
-        Api.post("/admin/employees/",campos).then((res) => {
+        Api.post("admin/employees/",campos).then((res) => {
                                                         console.log(res.data)
                                                         }).catch((error) => {
                                                             console.log(error)
