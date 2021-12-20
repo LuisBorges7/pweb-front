@@ -7,7 +7,7 @@ function ReservationForm() {
 
 
   const [campos, setCampos] = useState({
-    employee: '',
+    employee: null,
     customer: '',
     vehicle: '',
     insurance: '',
@@ -40,7 +40,7 @@ function ReservationForm() {
       <Form id="registration-in-form" onSubmit={handleFormSubmit}>
         <Form.Group className="mb-3" controlId="sign-in-employee">
           <Form.Label>Employee</Form.Label>
-          <Form.Control type="text" name="employee" size="lg" placeholder="" style={{ width: '400px' }} onChange={handleInputChange} />
+          <input class="form-control" type="text" name="employee" style={{ width: '400px' }} placeholder="Readonly input here..." readonly></input>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="sign-in-customer">
