@@ -15,7 +15,7 @@ function VehicleForm(){
         year: '',
         chassi_number: '',
         renavam: '',
-        tank: '',
+        full_tank: '',
         fuel_liters: '',
         kilometers: '',
         category: '',
@@ -64,7 +64,7 @@ function VehicleForm(){
                     <div className="col-md-8 m-auto">
                         <p className="lead text-center pt-5">Cadastro Veículos</p>
                         <Form.Group>
-                            <label className="form-control-label" class="text-left pt-3">Nome Veículo:</label>
+                            <label className="form-control-label" class="text-left pt-3">Placa:</label>
                             <Form.Control type="license_plate" name ="license_plate" size="lg" placeholder="Placa" autoComplete="license-car" className="position-relative" onChange={handleInputChange}/>
                         </Form.Group>
                         <Form.Group>
@@ -72,16 +72,16 @@ function VehicleForm(){
                             <Form.Control type="text" name ="car_model" size="lg" placeholder="Modelo do carro" autoComplete="car_model" className="position-relative" onChange={handleInputChange}/>
                         </Form.Group>
                         <Form.Group>
-                            <label className="form-control-label" class="text-left pt-3">Nome Veículo:</label>
+                            <label className="form-control-label" class="text-left pt-3">cor:</label>
                             <Form.Control type="color-car" name ="color" size="lg" placeholder="cor do carro" autoComplete="color-car" className="position-relative" onChange={handleInputChange}/>
                         </Form.Group>
                         <Form.Group>
-                            <label className="form-control-label" class="text-left pt-3">Nome Veículo:</label>
+                            <label className="form-control-label" class="text-left pt-3">marca:</label>
                             <Form.Control type="brand-car" name ="brand" size="lg" placeholder="marca do carro" autoComplete="brand-car" className="position-relative" onChange={handleInputChange}/>
                         </Form.Group>
                         <Form.Group>
                             <label className="form-control-label" class="text-left pt-3">Ano:</label>
-                            <Form.Control type="year" name ="year" size="lg" placeholder="Ano carro" autoComplete="year-car" className="position-relative" onChange={handleInputChange}/>
+                            <Form.Control type="number" name ="year" size="lg" placeholder="Ano carro" autoComplete="year-car" className="position-relative" onChange={handleInputChange}/>
                         </Form.Group>
                         <Form.Group>
                             <label className="form-control-label" class="text-left pt-3">Chassis:</label>
@@ -93,7 +93,7 @@ function VehicleForm(){
                         </Form.Group>
                         <Form.Group>
                             <label className="form-control-label" class="text-left pt-3">Tamanho do tanque combustivel em litros:</label>
-                            <Form.Control type="number" name ="tank" size="lg" placeholder="tamanho total tanque" autoComplete="tank-car" className="position-relative" onChange={handleInputChange}/>
+                            <Form.Control type="number" name ="full_tank" size="lg" placeholder="tamanho total tanque" autoComplete="full_tank-car" className="position-relative" onChange={handleInputChange}/>
                         </Form.Group>
                         <Form.Group>
                             <label className="form-control-label" class="text-left pt-3">nivel combustivel em litros:</label>
