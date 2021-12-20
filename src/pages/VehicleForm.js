@@ -35,9 +35,12 @@ function VehicleForm(){
 
         campos[name] = value;
         setCampos(campos);
+        
     }
 	
     function handleFormSubmit(event){
+        campos['category'] = categories.get(0);
+        setCampos(campos);
 
         event.preventDefault();
         console.log(campos);
