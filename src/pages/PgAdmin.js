@@ -7,7 +7,7 @@ function pgAdmin() {
 
         <Container id="main-container" className="d-grid h-100">
             <div className="col-md-8 m-auto">
-                <p className="lead text-center pt-5">Cadastro Veículos</p>
+                <p className="lead text-center pt-5">Paginas Admin</p>
                 <div className="d-grid">
                     <Link to="/vehicle-create/">
                         <button variante="primary" size="lg" type="register">Criar Veiculos</button>
