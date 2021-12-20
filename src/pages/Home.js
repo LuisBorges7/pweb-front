@@ -36,6 +36,9 @@ class Home extends React.Component {
                                 <li class="nav-item">
                                     <Link to="/login" class="nav-link active">LOGIN</Link>
                                 </li>
+                                                                <li class="nav-item">
+                                    <Link to="/pg-admin" class="nav-link active">ADMIN</Link>
+                                </li>
                             </ul>
                         </div>
                     </div>
