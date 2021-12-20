@@ -35,12 +35,9 @@ function VehicleForm(){
 
         campos[name] = value;
         setCampos(campos);
-        
     }
 	
     function handleFormSubmit(event){
-        campos['category'] = categories.get(0);
-        setCampos(campos);
 
         event.preventDefault();
         console.log(campos);
@@ -53,7 +50,7 @@ function VehicleForm(){
 
     useEffect( () => {
         (async () => {
-          Api.get('categories/').then( response => {
+          Api.get('/categories/').then( response => {
             setCategories(response.data);
             console.log(campos);
           });
