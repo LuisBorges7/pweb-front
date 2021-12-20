@@ -26,7 +26,7 @@ function CategoriesForm(){
 
         event.preventDefault();
         console.log(campos);
-        Api.post("categories/",campos).then((res) => {
+        Api.post("admin/categories/",campos).then((res) => {
                                                         console.log(res.data)
                                                         }).catch((error) => {
                                                             console.log(error)
