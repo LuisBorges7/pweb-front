@@ -226,7 +226,7 @@ class Home extends React.Component {
                             <div class="col-12 col-md-4">
                                 <img src="assets/img/Imagens/Imagens-de-carros/Carro12.jpg" alt="Projeto 2" class="img.fluid" />
                                 <div class="banner content">
-                                    <p class="secondary-color">Esportivo</p>
+                                    <p class="secondary-color">Esportivo Clássico</p>
                                 </div>
                             </div>
                             <div class="col-12 col-md-4">

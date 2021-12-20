@@ -20,7 +20,7 @@ function pgAdmin() {
                 </div>
                 <div className="d-grid">
                     <Link to="/checklist/">
-                        <button variante="primary" size="lg" type="register">checklist</button>
+                        <button variante="primary" size="lg" type="register">Checklist</button>
                     </Link>   
                 </div>
                 <div className="d-grid">
