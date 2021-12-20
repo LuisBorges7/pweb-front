@@ -41,7 +41,7 @@ function VehicleForm(){
 
         event.preventDefault();
         console.log(campos);
-        Api.post("vehicles/",campos).then((res) => {
+        Api.post("admin/vehicles/",campos).then((res) => {
                                                         console.log(res.data)
                                                         }).catch((error) => {
                                                             console.log(error)
