@@ -26,7 +26,7 @@ export default function Routers(){
                 <Route exact path="/provider-register" element={<ProviderRegistrationForm/>} />                
                 <Route exact path="/reservation" element={<ReservationForm/>} />
                 <Route exact path="/carlist" element={<CarList/>} />
-                <Route exact path="/pgAdmin" element={<pgAdmin/>} />
+                <Route exact path="/pg-admin" element={<pgAdmin/>} />
             </Routes>
             
         </BrowserRouter>
