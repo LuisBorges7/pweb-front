@@ -24,8 +24,13 @@ function pgAdmin() {
                     </Link>   
                 </div>
                 <div className="d-grid">
-                    <Link to="/provider-register /">
+                    <Link to="/provider-register/">
                         <button variante="primary" size="lg" type="register">Registrar Fornecedor</button>
+                    </Link>    
+                </div>
+                <div className="d-grid">
+                    <Link to="/categories-create/">
+                        <button variante="primary" size="lg" type="register">Criar Categorias</button>
                     </Link>    
                 </div>
             </div>

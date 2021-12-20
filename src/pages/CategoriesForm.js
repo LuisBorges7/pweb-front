@@ -25,8 +25,8 @@ function CategoriesForm(){
     function handleFormSubmit(event){
 
         event.preventDefault();
-        console.log(campos);
-        Api.post("vehicles/",campos).then((res) => {
+        console.log(campos);categories
+        Api.post("categories/",campos).then((res) => {
                                                         console.log(res.data)
                                                         }).catch((error) => {
                                                             console.log(error)

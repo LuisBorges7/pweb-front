@@ -50,7 +50,7 @@ function VehicleForm(){
 
     useEffect( () => {
         (async () => {
-          Api.get('/categories/').then( response => {
+          Api.get('vehicles/').then( response => {
             setCategories(response.data);
             console.log(campos);
           });
