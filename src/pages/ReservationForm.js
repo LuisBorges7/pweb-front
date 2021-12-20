@@ -79,7 +79,7 @@ function ReservationForm() {
 				</Form.Group>
 
 				<Form.Group className="mb-3" controlId="sign-in-insurance">
-					<Form.Label>Vehicle category</Form.Label>
+					<Form.Label>Insurance category</Form.Label>
 					<Form.Control as="select" name="insurance" size="lg" placeholder="" style={{ width: '400px' }} onChange={handleInputChange}>
 						{
 							insurances.map((result) => (<option text={result.id}>{result.name}</option>))
