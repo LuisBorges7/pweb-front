@@ -107,7 +107,7 @@ function VehicleForm(){
                             <label className="form-control-label" class="text-left pt-3">Selecione a categoria do carro:</label>
                             <Form.Control as="select" name="category" size="lg" placeholder="" style={{ width: '400px' }} onChange={handleInputChange}>
                                 {
-                                categories.map((result) => (<option text={result.id}>{result.name}</option>))
+                                categories.map((result) => (<option text={result.name}>{result.name}</option>))
                                 }
                             </Form.Control>
                         </Form.Group>
