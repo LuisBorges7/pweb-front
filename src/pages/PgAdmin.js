@@ -7,34 +7,34 @@ function pgAdmin() {
 
         <Container id="main-container" className="d-grid h-100">
             <div className="col-md-8 m-auto">
-                <p className="lead text-center pt-5">Paginas Admin</p>
+                <p className="lead text-center pt-5">Página do Adminstrador</p>
                 <div className="d-grid">
                     <Link to="/vehicle-create/">
-                        <button variante="primary" size="lg" type="register">Criar Veiculos</button>
-                    </Link>    
+                        <button variante="primary" style={{ width: '800px' }} size="lg" type="register">Cadastrar Veiculos</button>
+                    </Link>
                 </div>
                 <div className="d-grid">
                     <Link to="/employee-register/">
-                        <button variante="primary" size="lg" type="register">Criar Empregado</button>
-                    </Link>    
-                </div>
-                <div className="d-grid">
-                    <Link to="/checklist/">
-                        <button variante="primary" size="lg" type="register">Checklist</button>
-                    </Link>   
+                        <button variante="primary" style={{ width: '800px' }} size="lg" type="register">Cadastrar Funcionário</button>
+                    </Link>
                 </div>
                 <div className="d-grid">
                     <Link to="/provider-register/">
-                        <button variante="primary" size="lg" type="register">Registrar Fornecedor</button>
-                    </Link>    
+                        <button variante="primary" style={{ width: '800px' }} size="lg" type="register">Cadastrar Fornecedor</button>
+                    </Link>
                 </div>
                 <div className="d-grid">
                     <Link to="/categories-create/">
-                        <button variante="primary" size="lg" type="register">Criar Categorias</button>
-                    </Link>    
+                        <button variante="primary" style={{ width: '800px' }} size="lg" type="register">Cadastrar Categorias</button>
+                    </Link>
+                </div>
+                <div className="d-grid">
+                    <Link to="/checklist/">
+                        <button variante="primary" style={{ width: '800px' }} size="lg" type="register">Checklist</button>
+                    </Link>
                 </div>
             </div>
-          
+
         </Container >
     )
 }

@@ -68,37 +68,37 @@ function ClientForm(){
         <Container id="main-container" className="d-grid h-100">
             <form onSubmit={handleFormSubmit} id="info-client" initialstate={{ input: '' }} className="text w-100">
                     <div className="col-md-8 m-auto">
-                        <p className="lead text-center pt-5">Cadastro Cliente</p>
+                        <p className="lead text-center pt-5">Cadastro do Cliente</p>
                         <Form.Group>
                             <label className="form-control-label" class="text-left pt-3">Nome completo:</label>
                             <Form.Control type="text" name ="name" size="lg" placeholder="Nome" autoComplete="name" className="position-relative" onChange={handleInputChange}/>
                         </Form.Group>
                         <Form.Group>
                             <label className="form-control-label" class="text-left pt-3">Email:</label>
-                            <Form.Control type="email" name ="email" size="lg" placeholder="email" autoComplete="email" className="position-relative" onChange={handleInputChange}/>
+                            <Form.Control type="email" name ="email" size="lg" placeholder="Email" autoComplete="email" className="position-relative" onChange={handleInputChange}/>
                         </Form.Group>
                         <Form.Group>
-                            <label className="form-control-label" class="text-left pt-3">senha:</label>
-                            <Form.Control type="password" name ="password" size="lg" placeholder="password" autoComplete="password" className="position-relative" onChange={handleInputChange}/>
+                            <label className="form-control-label" class="text-left pt-3">Senha:</label>
+                            <Form.Control type="password" name ="password" size="lg" placeholder="Senha" autoComplete="password" className="position-relative" onChange={handleInputChange}/>
                         </Form.Group>
                         <Form.Group>
-                            <label className="form-control-label" class="text-left pt-3">cpf:</label>
-                            <Form.Control type="color-car" name ="cpf" size="lg" placeholder="cpf" autoComplete="cpf" className="position-relative" onChange={handleInputChange}/>
+                            <label className="form-control-label" class="text-left pt-3">CPF:</label>
+                            <Form.Control type="color-car" name ="cpf" size="lg" placeholder="CPF" autoComplete="cpf" className="position-relative" onChange={handleInputChange}/>
                         </Form.Group>
                         <Form.Group>
-                            <label className="form-control-label" class="text-left pt-3">rg:</label>
-                            <Form.Control type="color-car" name ="rg" size="lg" placeholder="rg" autoComplete="rg" className="position-relative" onChange={handleInputChange}/>
+                            <label className="form-control-label" class="text-left pt-3">RG:</label>
+                            <Form.Control type="color-car" name ="rg" size="lg" placeholder="RG" autoComplete="rg" className="position-relative" onChange={handleInputChange}/>
                         </Form.Group>
                         <Form.Group>
-                            <label className="form-control-label" class="text-left pt-3">cnh:</label>
+                            <label className="form-control-label" class="text-left pt-3">CNH:</label>
                             <Form.Control type="text" name ="cnh" size="lg" placeholder="CNH" autoComplete="cnh" className="position-relative" onChange={handleInputChange}/>
                         </Form.Group>
                         <Form.Group>
-                            <label className="form-control-label" class="text-left pt-3">category_cnh:</label>
-                            <Form.Control type="text" name ="category_cnh" size="lg" placeholder="category_cnh" autoComplete="category_cnh" className="position-relative" onChange={handleInputChange}/>
+                            <label className="form-control-label" class="text-left pt-3">Categoria da CNH:</label>
+                            <Form.Control type="text" name ="category_cnh" size="lg" placeholder="Categoria da CNH" autoComplete="category_cnh" className="position-relative" onChange={handleInputChange}/>
                         </Form.Group>
                         <Form.Group>
-                            <label className="form-control-label" class="text-left pt-3">Data CNH:</label>
+                            <label className="form-control-label" class="text-left pt-3">Data da CNH:</label>
                             <Form.Control type="date" name ="cnh_first_date" size="lg" placeholder="data" autoComplete="cnh_first_date" className="position-relative" onChange={handleInputChange}/>
                         </Form.Group>
                         <Form.Group>
@@ -106,12 +106,12 @@ function ClientForm(){
                             <Form.Control type="text" name ="street" size="lg" placeholder="Rua" autoComplete="street" className="position-relative" onChange={handleInputAddressChange}/>
                         </Form.Group>
                         <Form.Group>
-                            <label className="form-control-label" class="text-left pt-3">Numero Residencia:</label>
+                            <label className="form-control-label" class="text-left pt-3">Número Residência:</label>
                             <Form.Control type="number" name ="number" size="lg" placeholder="Numero" autoComplete="number" className="position-relative" onChange={handleInputAddressChange}/>
                         </Form.Group>
                         <Form.Group>
-                            <label className="form-control-label" class="text-left pt-3">neighborhood:</label>
-                            <Form.Control type="text" name ="neighborhood" size="lg" placeholder="neighborhood" autoComplete="neighborhood" className="position-relative" onChange={handleInputAddressChange}/>
+                            <label className="form-control-label" class="text-left pt-3">Bairro:</label>
+                            <Form.Control type="text" name ="neighborhood" size="lg" placeholder="Bairro" autoComplete="neighborhood" className="position-relative" onChange={handleInputAddressChange}/>
                         </Form.Group>
                         <Form.Group>
                             <label className="form-control-label" class="text-left pt-3">Cidade:</label>
@@ -126,11 +126,11 @@ function ClientForm(){
                             <Form.Control type="text" name ="state" size="lg" placeholder="Estado" autoComplete="state" className="position-relative" onChange={handleInputAddressChange}/>
                         </Form.Group>
                         <Form.Group>
-                            <label className="form-control-label" class="text-left pt-3">Pais:</label>
-                            <Form.Control type="text" name ="country" size="lg" placeholder="country" autoComplete="Pais" className="position-relative" onChange={handleInputAddressChange}/>
+                            <label className="form-control-label" class="text-left pt-3">País:</label>
+                            <Form.Control type="text" name ="country" size="lg" placeholder="Pais" autoComplete="Pais" className="position-relative" onChange={handleInputAddressChange}/>
                         </Form.Group>
                         <Form.Group>
-                            <label className="form-control-label" class="text-left pt-3">Profissao:</label>
+                            <label className="form-control-label" class="text-left pt-3">Profissão:</label>
                             <Form.Control type="text" name ="profession" size="lg" placeholder="Profissao" autoComplete="profession" className="position-relative" onChange={handleInputChange}/>
                         </Form.Group>
                         <div className="row">
