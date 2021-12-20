@@ -9,6 +9,7 @@ import ReservationForm from "./pages/ReservationForm"
 import ClientForm from "./pages/ClientForm"
 import ProviderRegistrationForm from "./pages/ProviderRegistrationForm"
 import CarList from "./pages/CarList"
+import pgAdmin from "./pages/pgAdmin"
 
 
 
@@ -25,6 +26,7 @@ export default function Routers(){
                 <Route exact path="/provider-register" element={<ProviderRegistrationForm/>} />                
                 <Route exact path="/reservation" element={<ReservationForm/>} />
                 <Route exact path="/carlist" element={<CarList/>} />
+                <Route exact path="/pgAdmin" element={<pgAdmin/>} />
             </Routes>
             
         </BrowserRouter>
