@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import Container from 'react-bootstrap/Container'
 import Form from 'react-bootstrap/Form'
 import Api from '../ApiAxions'
@@ -25,23 +25,13 @@ function CategoriesForm(){
     function handleFormSubmit(event){
 
         event.preventDefault();
-        console.log(campos);categories
+        console.log(campos);
         Api.post("categories/",campos).then((res) => {
                                                         console.log(res.data)
                                                         }).catch((error) => {
                                                             console.log(error)
                                                         });
     }
-
-    useEffect( () => {
-        (async () => {
-          Api.get('categories/').then( response => {
-            setCategories(response.data);
-            console.log(campos);
-          });
-        })();
-    }, []);
-
 
     return(
         <Container id="main-container" className="d-grid h-100">
